@@ -17,5 +17,18 @@ h1#principal {
 h2 {
 color: #54592E;
 }
+
+.basico {
+color:#816A58 ;
+}
+
+.intermediario {
+color: #5C412C;
+}
+
+.avancado {
+color: #676062;
+}
 /* Em HTML é id = em CSS é #
-Em HTML é class = em CSS é . */
+Em HTML é class = em CSS é . 
+id é único, class são vários*/
