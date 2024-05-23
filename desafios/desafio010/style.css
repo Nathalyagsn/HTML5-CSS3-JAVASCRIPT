@@ -1,0 +1,67 @@
+
+@font-face {
+    font-family:'idroid' ;
+    src: url('fontes/idroid.otf');
+}
+@font-face {
+    font-family:'rakesly It it' ;
+    src: url('fontes/rakesly\ lt\ it.otf');
+}
+
+body {
+    background-color: rgb(90, 172, 90)
+}
+
+#curiosidades {
+text-align: center;
+font-family: 'rakesly It it';
+color: white;
+font-size: 50px
+}
+
+#abaixodotitulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#caixa {
+    border: 2px solid black; 
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(to bottom, rgb(90, 172, 90), rgb(59, 57, 57));
+    
+}
+#paginabranca {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    margin: 0 auto;
+    border:0px solid black;
+    
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#historia {
+    font-family: 'idroid';
+    text-align: left;
+    color: rgb(94, 143, 94);
+    margin-left: 15px;
+    
+}
+#provavelmente {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
