@@ -9,14 +9,16 @@
 }
 
 body {
-    background-color: rgb(90, 172, 90)
+    background-color: rgb(90, 172, 90);
+    
 }
 
 #curiosidades {
 text-align: center;
 font-family: 'rakesly It it';
 color: white;
-font-size: 50px
+font-size: 50px;
+
 }
 
 #abaixodotitulo {
@@ -28,16 +30,17 @@ font-size: 50px
 #caixa {
     border: 2px solid black; 
     padding: 20px;
-    margin: 20px;
+    margin: -21px;
     background: linear-gradient(to bottom, rgb(90, 172, 90), rgb(59, 57, 57));
     
 }
 #paginabranca {
-    width: 210mm;
-    height: 297mm;
+    width: 212mm;
+    height: 600mm;
     background-color: white;
     margin: 0 auto;
     border:0px solid black;
+    
     
 }
 
@@ -53,8 +56,9 @@ nav > a {
 #historia {
     font-family: 'idroid';
     text-align: left;
-    color: rgb(94, 143, 94);
+    color: rgb(39, 97, 39);
     margin-left: 15px;
+    
     
 }
 #provavelmente {
@@ -63,5 +67,86 @@ nav > a {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
     margin: 15px;
+}
+
+#primeira {
+    font-family: 'idroid';
+    text-align: left;
+    color: rgb(29, 75, 29);
+    margin-left: 15px;
+    background: linear-gradient(to right, rgb(140, 224, 140), rgb(255, 255, 255));
+    
+}
+
+#tentativa {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#dan {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(160, 223, 160);
+    
+    
+    
+    
+}
+
+#linkscape {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(160, 223, 160);
+    
+}
+
+#Dandroids {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+#dd {
+    font-weight: bold;
+    color: rgb(39, 97, 39);
+}
+
+#novomascote {
+    font-family: 'idroid';
+    text-align: left;
+    color: rgb(29, 75, 29);
+    margin-left: 15px;
+    background: linear-gradient(to right, rgb(140, 224, 140), rgb(255, 255, 255));
+}
+
+#ilustradora {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#irinablok {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(160, 223, 160);
+}
+
+#surgiu {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#Bugdroidirina {
+    font-weight: bold;
+    color: rgb(39, 97, 39);
 }
 
