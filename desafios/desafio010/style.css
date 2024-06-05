@@ -19,6 +19,7 @@ font-family: 'rakesly It it';
 color: white;
 font-size: 50px;
 
+
 }
 
 #abaixodotitulo {
@@ -28,18 +29,22 @@ font-size: 50px;
 }
 
 #caixa {
-    border: 2px solid black; 
-    padding: 20px;
-    margin: -21px;
+    border: 0px solid black; 
+    padding: 13px;
+    margin: -20px;
     background: linear-gradient(to bottom, rgb(90, 172, 90), rgb(59, 57, 57));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    
     
 }
 #paginabranca {
     width: 212mm;
-    height: 600mm;
+    height: 647mm;
     background-color: white;
     margin: 0 auto;
     border:0px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px
     
     
 }
@@ -148,5 +153,96 @@ nav > a {
 #Bugdroidirina {
     font-weight: bold;
     color: rgb(39, 97, 39);
+}
+
+#imgandroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inspiração {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#ultimoh2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 107, 39);
+    color: white;
+    border-radius: 3px;
+    
+}
+
+#ultimop {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#lista span {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline dotted;
+}
+
+#lista2 span {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline dotted;
+    
+    
+}
+
+#finalzinho {
+    background-color: rgb(160, 223, 160);
+    margin:auto;
+    padding: 10;
+    border:0px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+#up {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px 
+}
+
+#up2 {
+    text-align: center;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+footer {
+    background-color: rgb(29, 75, 29);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+footer > a:hover {
+    color: rgb(160, 223, 160);
+    text-decoration-line:underline; 
+    
+    
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
 }
 
