@@ -1,0 +1,8 @@
+body {
+    height: 98vh;
+    border: 1px dashed black;
+    background-image: url('https://images.vexels.com/media/users/3/322493/isolated/lists/d097daab3d8211e29cee481106491124-balaues-fofos-de-aniversa-rio-de-gato.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
