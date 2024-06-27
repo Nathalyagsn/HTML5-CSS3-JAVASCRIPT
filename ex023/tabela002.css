@@ -27,3 +27,7 @@ caption {
     padding: 10px;
     background-color: lightgrey;
 }
+
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
+}
