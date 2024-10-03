@@ -1,0 +1,248 @@
+
+@font-face {
+    font-family:'idroid' ;
+    src: url('fontes/idroid.otf');
+}
+@font-face {
+    font-family:'rakesly It it' ;
+    src: url('fontes/rakesly\ lt\ it.otf');
+}
+
+body {
+    background-color: rgb(90, 172, 90);
+    
+}
+
+#curiosidades {
+text-align: center;
+font-family: 'rakesly It it';
+color: white;
+font-size: 50px;
+
+
+}
+
+#abaixodotitulo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#caixa {
+    border: 0px solid black; 
+    padding: 13px;
+    margin: -20px;
+    background: linear-gradient(to bottom, rgb(90, 172, 90), rgb(59, 57, 57));
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    
+    
+}
+#paginabranca {
+    width: 212mm;
+    height: 647mm;
+    background-color: white;
+    margin: 0 auto;
+    border:0px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px
+    
+    
+}
+
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#historia {
+    font-family: 'idroid';
+    text-align: left;
+    color: rgb(39, 97, 39);
+    margin-left: 15px;
+    
+    
+}
+#provavelmente {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#primeira {
+    font-family: 'idroid';
+    text-align: left;
+    color: rgb(29, 75, 29);
+    margin-left: 15px;
+    background: linear-gradient(to right, rgb(140, 224, 140), rgb(255, 255, 255));
+    
+}
+
+#tentativa {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#dan {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(160, 223, 160);
+    
+    
+    
+    
+}
+
+#linkscape {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(160, 223, 160);
+    
+}
+
+#Dandroids {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+#dd {
+    font-weight: bold;
+    color: rgb(39, 97, 39);
+}
+
+#novomascote {
+    font-family: 'idroid';
+    text-align: left;
+    color: rgb(29, 75, 29);
+    margin-left: 15px;
+    background: linear-gradient(to right, rgb(140, 224, 140), rgb(255, 255, 255));
+}
+
+#ilustradora {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#irinablok {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(160, 223, 160);
+}
+
+#surgiu {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#Bugdroidirina {
+    font-weight: bold;
+    color: rgb(39, 97, 39);
+}
+
+#imgandroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inspiração {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#ultimoh2 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(39, 107, 39);
+    color: white;
+    border-radius: 3px;
+    
+}
+
+#ultimop {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+#lista span {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline dotted;
+}
+
+#lista2 span {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline dotted;
+    
+    
+}
+
+#finalzinho {
+    background-color: rgb(160, 223, 160);
+    margin:auto;
+    padding: 10;
+    border:0px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+#up {
+    text-align: justify;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px 
+}
+
+#up2 {
+    text-align: center;
+    text-indent: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin: 15px;
+}
+
+footer {
+    background-color: rgb(29, 75, 29);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+footer > a:hover {
+    color: rgb(160, 223, 160);
+    text-decoration-line:underline; 
+    
+    
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+

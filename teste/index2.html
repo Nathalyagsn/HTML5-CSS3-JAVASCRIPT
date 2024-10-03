@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcar Pet como Adotado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
+            background-color: #ffffff;
+        }
+        h1 {
+            color: #333;
+        }
+        a, button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        a {
+            background-color: #2196F3;
+        }
+        a:hover {
+            background-color: #1976D2;
+        }
+        button {
+            background-color: #4CAF50;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #388E3C;
+        }
+        .adopted-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 6px 12px;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+        .adopted-btn:hover {
+            background-color: #388E3C;
+        }
+    </style>
+</head>
+<body>
+    <h1>Disponíveis para adoção</h1>
+    <table id="petsTable">
+        <thead>
+            <tr>
+                <th>Nome do Pet</th>
+                <th>Espécie</th>
+                <th>Raça</th>
+                <th>Idade (anos)</th>
+                <th>Observações</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <a href="index.html">Voltar para a lista de cadastro</a>
+
+    <script>
+        window.onload = function() {
+            updatePetList();
+        }
+
+        function updatePetList() {
+            const pets = JSON.parse(localStorage.getItem('pets')) || [];
+            const tableBody = document.querySelector('#petsTable tbody');
+            tableBody.innerHTML = '';
+
+            pets.forEach((pet, index) => {
+                const row = document.createElement('tr');
+                
+                row.innerHTML = `
+                    <td>${pet.petName}</td>
+                    <td>${pet.species}</td>
+                    <td>${pet.breed}</td>
+                    <td>${pet.age}</td>
+                    <td>${pet.observations}</td>
+                    <td><button class="adopted-btn" onclick="markAsAdopted(${index})">Marcar Como Adotado</button></td>
+                `;
+
+                tableBody.appendChild(row);
+            });
+        }
+
+        function markAsAdopted(index) {
+            let pets = JSON.parse(localStorage.getItem('pets')) || [];
+            let adoptedPets = JSON.parse(localStorage.getItem('adoptedPets')) || [];
+
+            if (pets[index]) {
+                adoptedPets.push(pets[index]);
+                pets.splice(index, 1);
+
+                localStorage.setItem('pets', JSON.stringify(pets));
+                localStorage.setItem('adoptedPets', JSON.stringify(adoptedPets));
+
+                alert('Pet marcado como adotado!');
+                updatePetList(); // Atualiza a lista na página
+            }
+        }
+    </script>
+</body>
+</html>
